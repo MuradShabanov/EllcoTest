@@ -30,6 +30,7 @@ class CustomCell: UICollectionViewCell {
         configureVersionLable()
         configureSenderLabel()
         
+        layoutIfNeeded()
         configureElements()
     }
     
